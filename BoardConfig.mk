@@ -89,6 +89,12 @@ TW_THEME := portrait_hdpi
 # Disable Mouse Cursor
 TW_INPUT_BLACKLIST := "hbtp_vm"
 
+# exFAT FS Support
+TW_INCLUDE_FUSE_EXFAT := true
+
+# NTFS Support
+TW_INCLUDE_FUSE_NTFS := true
+
 # Treble
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := false
 TARGET_COPY_OUT_VENDOR := vendor
