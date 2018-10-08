@@ -1,2 +1,2 @@
-add_lunch_combo omni_vince-userdebug
-add_lunch_combo omni_vince-eng
+add_lunch_combo omni_ysl-userdebug
+add_lunch_combo omni_ysl-eng
