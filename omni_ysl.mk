@@ -8,10 +8,10 @@ $(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-2048-dalvi
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/xiaomi/vince/device.mk)
+$(call inherit-product, device/xiaomi/ysl/device.mk)
 
-PRODUCT_NAME := omni_vince
-PRODUCT_DEVICE := vince
+PRODUCT_NAME := omni_ysl
+PRODUCT_DEVICE := ysl
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Wingtech
-PRODUCT_MODEL := Redmi 5 Plus
+PRODUCT_MODEL := Redmi S2
